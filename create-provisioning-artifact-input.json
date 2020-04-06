@@ -1,0 +1,25 @@
+{
+    "AcceptLanguage": "en",
+    "Name": "fca-service-catalog-cf-demo2",
+    "Owner": "Adam and Casey",
+    "Description": "s3 bucket",
+    "Distributor": "fujitsu",
+    "SupportDescription": "test-support",
+    "SupportEmail": "adam.dawson@fujitsu.com",
+    "SupportUrl": "https://linktowiki",
+    "ProductType": "bucket",
+    "Tags": [
+        {
+            "Key": "region",
+            "Value": "iad"
+        }
+    ],
+    "ProvisioningArtifactParameters": {
+        "Name": "demo2",
+        "Description": "s3 bucket inspec tested",
+        "Info": {
+            "LoadTemplateFromURL": "https://s3-us-west-1.amazonaws.com/cloudformation-templates-us-west-1/my-cfn-template.template"
+        },
+        "Type": "CLOUD_FORMATION_TEMPLATE"
+    }
+}
