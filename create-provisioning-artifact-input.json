@@ -20,6 +20,7 @@
         "Info": {
             "LoadTemplateFromURL": "https://s3-us-west-1.amazonaws.com/cloudformation-templates-us-west-1/my-cfn-template.template"
         },
-        "Type": "CLOUD_FORMATION_TEMPLATE"
+        "Type": "CLOUD_FORMATION_TEMPLATE",
+        "DisableTemplateValidation": true
     }
 }
