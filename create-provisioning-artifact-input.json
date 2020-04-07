@@ -7,7 +7,7 @@
     "SupportDescription": "test-support",
     "SupportEmail": "adam.dawson@fujitsu.com",
     "SupportUrl": "https://linktowiki",
-    "ProductType": "bucket",
+    "ProductType": "CLOUD_FORMATION_TEMPLATE",
     "Tags": [
         {
             "Key": "region",
